@@ -20,7 +20,9 @@ public class ThreadPoolTest {
 
 	@Test
 	public void test() {
-		long total = 1000000000;
+		//int total = 1082741824;
+		//int total = 1000;
+		int total = 536870912;
 		
 		ThreadPool tp = new ThreadPool(4);
 		char[] chars = new char[total];
